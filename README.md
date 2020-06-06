@@ -1,5 +1,5 @@
 # D3Net (TNNLS2020)
-Rethinking RGB-D Salient Object Detection: Models, Datasets, and Large-Scale Benchmarks, submit to IEEE TNNLS 2020
+Rethinking RGB-D Salient Object Detection: Models, Datasets, and Large-Scale Benchmarks, IEEE TNNLS 2020
 Please refer to our website page (http://dpfan.net/d3netbenchmark/) for more details. The code will coming soon.
 
 ## Training and Testing Sets
