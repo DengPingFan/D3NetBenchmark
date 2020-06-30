@@ -28,5 +28,10 @@ python eval.py
 ## Citation
 If you find this work or code is helpful in your research, please cite:
 ```
-TBD
+@article{fan2019rethinking,
+  title={{Rethinking RGB-D salient object detection: Models, datasets, and large-scale benchmarks}},
+  author={Fan, Deng-Ping and Lin, Zheng and Zhang, Zhao and Zhu, Menglong and Cheng, Ming-Ming},
+  journal={IEEE TNNLS},
+  year={2020}
+}
 ```
