@@ -10,3 +10,23 @@ https://drive.google.com/open?id=1osdm_PRnupIkM82hFbz9u0EKJC_arlQI
 Our testing dataset is:
 
 https://drive.google.com/open?id=1ABYxq0mL4lPq2F0paNJ7-5T9ST6XVHl1
+
+## Requirement
+- PyTorch>=0.4.1  
+- Opencv   
+
+## Useage
+Put the three pretrained models into the created folder "eval/pretrained_model".
+
+### Evalution:
+```
+python eval.py
+```
+## Pretrained models
+-RgbdNet,RgbNet,DepthNet pretrained modelscan be downloaded from ( [GoogleDrive](https://drive.google.com/open?id=1Zjn1RqAuNfG_VXjJ4X7RjX0cvuu6vFtM) | [BaiduYun](https://pan.baidu.com/s/1_Jjxb_0SU842FAj9RAEmBw ))  
+
+## Citation
+If you find this work or code is helpful in your research, please cite:
+```
+TBD
+```
