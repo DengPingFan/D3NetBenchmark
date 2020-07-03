@@ -36,6 +36,7 @@ python eval.py
 <p align="center">
     <img src="D3Net-Result.jpg"/> <br/>
 </p>
+Results of our model on seven benchmark datasets can be found: Baidu Pan(https://pan.baidu.com/s/13z0ZEptUfEU6hZ6yEEISuw) 提取码: r295
 
 ## Citation
 If you find this work or code is helpful in your research, please cite:
