@@ -9,9 +9,6 @@ Figure 1: Illustration of the proposed D3Net. In the training stage (Left), the 
     </em>
 </p>
 
-## Training code
-+ Training code could be avaliable via email. (dengpfan@gmail.com)
-
 ## Training and Testing Sets
 Our training dataset is:
 
@@ -25,10 +22,17 @@ https://drive.google.com/open?id=1ABYxq0mL4lPq2F0paNJ7-5T9ST6XVHl1
 - PyTorch>=0.4.1  
 - Opencv   
 
-## Useage
-Put the three pretrained models into the created folder "eval/pretrained_model".
 
-### Evalution:
+## Train:
+Put the three datasets 'NJU2K_TRAIN', 'NLPR_TRAIN','NJU2K_TEST' into the created folder "dataset".
+```
+python train.py --net RgbNet
+python train.py --net RgbdNet
+python train.py --net DepthNet
+```
+
+## Evalution:
+Put the three pretrained models into the created folder "eval/pretrained_model".
 ```
 python eval.py
 ```
