@@ -26,7 +26,7 @@ https://drive.google.com/open?id=1ABYxq0mL4lPq2F0paNJ7-5T9ST6XVHl1
 ## Train:
 Put the three datasets 'NJU2K_TRAIN', 'NLPR_TRAIN','NJU2K_TEST' into the created folder "dataset".
 
-Put the vgg-pretrained model 'vgg16_feat.pth' ( [GoogleDrive](https://tbd) | [BaiduYun](https://tbd) code: tbd )  into the created folder "model".
+Put the vgg-pretrained model 'vgg16_feat.pth' ( [GoogleDrive](https://drive.google.com/file/d/1SXOV-DKnnqFD_b9yxJCIzdSkU7qiHh1X/view?usp=sharing) | [BaiduYun](https://pan.baidu.com/s/17qaLM3nbgR_eGehSK-SOrA) code: zsxh )  into the created folder "model".
 ```
 python train.py --net RgbNet
 python train.py --net RgbdNet
