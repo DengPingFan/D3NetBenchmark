@@ -3,7 +3,7 @@ Rethinking RGB-D Salient Object Detection: Models, Data Sets, and Large-Scale Be
 Please refer to our website page (http://dpfan.net/d3netbenchmark/) for more details. 
 
 ### 0.1. :fire: NEWS :fire:
-- [2020/08/02] :boom: Release train code.
+- [2020/08/02] :boom: Release the training code.
 
 <p align="center">
     <img src="D3Net-TNNLS20.png"/> <br/>
