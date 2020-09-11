@@ -54,6 +54,9 @@ Baidu Pan(https://pan.baidu.com/s/13z0ZEptUfEU6hZ6yEEISuw) 提取码: r295
 
 Google Drive(https://drive.google.com/drive/folders/1T46FyPzi3XjsB18i3HnLEqkYQWXVbCnK?usp=sharing)
 
+## Paper with code
+https://paperswithcode.com/task/rgb-d-salient-object-detection
+
 ## RGB-D SOD Models:  <a id="RGBDmodels" class="anchor" href="#RGBDmodels" aria-hidden="true"><span class="octicon octicon-link"></span></a>  
 :fire::fire::fire:Update (in 2020-08-28)
 **No.** | **Year** | **Model** |**Pub.** | **Title** | **Links** 
