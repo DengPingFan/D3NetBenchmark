@@ -54,6 +54,9 @@ Baidu Pan(https://pan.baidu.com/s/13z0ZEptUfEU6hZ6yEEISuw) 提取码: r295
 
 Google Drive(https://drive.google.com/drive/folders/1T46FyPzi3XjsB18i3HnLEqkYQWXVbCnK?usp=sharing)
 
+## Paper list
+https://github.com/taozh2017/RGBD-SODsurvey
+
 ## Paper with code
 https://paperswithcode.com/task/rgb-d-salient-object-detection
 
