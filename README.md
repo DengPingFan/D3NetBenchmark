@@ -61,7 +61,7 @@ https://paperswithcode.com/task/rgb-d-salient-object-detection
 :fire::fire::fire:Update (in 2020-08-28)
 **No.** | **Year** | **Model** |**Pub.** | **Title** | **Links** 
 :-: | :-: | :-: | :-  | :-  | :-: 
-:fire: 97 | 2020 | D3Net  |IEEE TNNLS     | Rethinking RGB-D salient object detection: models, datasets, and large-scale benchmarks | [Paper](https://arxiv.org/pdf/1907.06781.pdf)/[Project](https://github.com/DengPingFan/D3NetBenchmark)
+:fire: 97 | 2021 | D3Net  |IEEE TNNLS     | Rethinking RGB-D salient object detection: models, datasets, and large-scale benchmarks | [Paper](https://arxiv.org/pdf/1907.06781.pdf)/[Project](https://github.com/DengPingFan/D3NetBenchmark)
 :fire: 96 | 2020 |JL-DCF   | arXiv (CVPR extension)   | Siamese Network for RGB-D Salient Object Detection and Beyond | [Paper](https://arxiv.org/pdf/2008.12134.pdf)/[Project](https://github.com/kerenfu/JLDCF)
 :fire: 95 | 2020 |MMNet  | ACM MM  | MMNet: Multi-Stage and Multi-Scale Fusion Network for RGB-D Salient Object Detection | Paper/Project
 94 | 2020 |DASNet  | ACM MM        | Is depth really necessary for salient object detection? | [Paper](https://arxiv.org/pdf/2006.00269.pdf)/[Project](http://cvteam.net/projects/2020/DASNet/)
@@ -180,12 +180,12 @@ If you find this work or code is helpful in your research, please cite:
   title={{Rethinking RGB-D salient object detection: Models, datasets, and large-scale benchmarks}},
   author={Fan, Deng-Ping and Lin, Zheng and Zhang, Zhao and Zhu, Menglong and Cheng, Ming-Ming},
   journal={IEEE TNNLS},
-  year={2020}
+  year={2021}
 }
-@article{zhou2020rgbd,
+@article{zhou2021rgbd,
   title={RGB-D Salient Object Detection: A Survey},
   author={Zhou, Tao and Fan, Deng-Ping and Cheng, Ming-Ming and Shen, Jianbing and Shao, Ling},
-  journal={arXiv preprint arXiv:2008.00230},
-  year={2020}
+  journal={CVMJ},
+  year={2021}
 }
 ```
