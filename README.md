@@ -16,7 +16,7 @@ Figure 1: Illustration of the proposed D3Net. In the training stage (Left), the 
 - [RGB-D Salient Object Detection <a name="headin"></a>](#Title)
 	- [Table of Contents](#table-of-contents)
 	- [Abstract](#abstract)
-	- [Notion of Depth Depurator Unit (DDU)](#notion-of-DDU)
+	- [Notion of Depth Depurator Unit](#notion-of-DDU)
 	- [Statistics of DAVSOD](#statistics-of-davsod)
 	- [Downloads](#downloads)
 	- [Usage](#usage)
@@ -28,7 +28,11 @@ The use of RGB-D information for salient object detection has been explored in r
 comparing contemporary methods, which has long been missing in the area and can serve as a baseline for future research. We systematically summarized 31 popular models, evaluated 17 state-of-the-art methods over seven datasets with totally about 91K images. Third, we propose a simple baseline architecture, called Deep Depth-Depurator Network (D3Net). It consists of a depth depurator unit and a feature learning module, performing initial low-quality depth map filtering and cross-modal feature learning respectively. These components form a nested structure and are elaborately designed to be learned jointly. D3Net exceeds the performance of any prior contenders across five metrics considered, thus serves as a strong baseline to advance the research frontier. We also demonstrate that D3Net can be used to efficiently extract salient person masks from the real scenes, enabling effective background changed book cover application with 20 fps on a single GPU. All the saliency maps, our new SIP dataset, baseline model, and evaluation tools are made publicly available at https://github.com/DengPingFan/D3NetBenchmark.
 
 
-## Notion of Depth Depurator Unit (DDU)
+## Notion of Depth Depurator Unit
+The statistics of the depth maps in existing datasets (e.g., NJU2K, NLPR, RGBD135, STERE, and LFSD) suggest that — “high quality depth maps usually contain clear objects, but the elements in low-quality depth maps are cluttered (2nd row in Fig. 2)”
+
+Figure 2: The smoothed histogram (c) of high-quality (1st row), lowquality (2nd row) depth map, respectively.
+
 
 ## Training and Testing Sets
 Our training dataset is:
