@@ -1,7 +1,7 @@
 # RGB-D Salient Object Detection: Models, Data Sets, and Large-Scale Benchmarks (TNNLS2021) <a name="headin"></a>
 Rethinking RGB-D Salient Object Detection: Models, Data Sets, and Large-Scale Benchmarks, IEEE TNNLS 2021. 
 
-### 0.1. :fire: NEWS :fire:
+### :fire: NEWS :fire:
 - [2022/06/09] :boom: Update the related works.
 - [2020/08/02] : Release the training code.
 
