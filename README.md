@@ -18,7 +18,7 @@ Figure 1: Illustration of the proposed D3Net. In the training stage (Left), the 
 	- [Abstract](#abstract)
 	- [Notion of Depth Depurator Unit](#Notion-of-Depth-Depurator-Unit)
 	- [Related Works](#related-works)
-	- [Salient Person (SIP) dataset](#salient-person-dataset)
+	- [Salient Person (SIP) dataset](#salient-person-(SIP)-dataset)
 	- [Downloads](#downloads)
 	- [Usage](#usage)
 	- [Results](#results)
