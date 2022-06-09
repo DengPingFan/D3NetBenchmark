@@ -76,7 +76,7 @@ Toolbox (updated in 2022/06/09): [Baidu: i09j] (https://pan.baidu.com/s/1ArnPZ4O
 
 ## Results
 <p align="center">
-    <img src="D3Net-Result.jpg"/> <br/>
+    <img src="figures/D3Net-Result.jpg"/> <br/>
 </p>
 Results of our model on seven benchmark datasets can be found: 
 
