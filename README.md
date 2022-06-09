@@ -2,7 +2,8 @@
 Rethinking RGB-D Salient Object Detection: Models, Data Sets, and Large-Scale Benchmarks, IEEE TNNLS 2021. 
 
 ### 0.1. :fire: NEWS :fire:
-- [2020/08/02] :boom: Release the training code.
+- [2022/06/09] :boom: Update the related works.
+- [2020/08/02] : Release the training code.
 
 <p align="center">
     <img src="D3Net-TNNLS20.png"/> <br/>
