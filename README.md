@@ -31,7 +31,13 @@ comparing contemporary methods, which has long been missing in the area and can 
 ## Notion of Depth Depurator Unit
 The statistics of the depth maps in existing datasets (e.g., NJU2K, NLPR, RGBD135, STERE, and LFSD) suggest that — “high quality depth maps usually contain clear objects, but the elements in low-quality depth maps are cluttered (2nd row in Fig. 2)”
 
-Figure 2: The smoothed histogram (c) of high-quality (1st row), lowquality (2nd row) depth map, respectively.
+<p align="center">
+    <img src="figures/saliencyShift-1.png" width="50%" /> <br/>
+    <em> 
+    Figure 2: The smoothed histogram (c) of high-quality (1st row), lowquality (2nd row) depth map, respectively.
+    </em>
+</p>
+
 
 
 ## Training and Testing Sets
