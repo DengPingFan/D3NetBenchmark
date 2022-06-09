@@ -6,7 +6,7 @@ Rethinking RGB-D Salient Object Detection: Models, Data Sets, and Large-Scale Be
 - [2020/08/02] : Release the training code.
 
 <p align="center">
-    <img src="D3Net-TNNLS20.png"/> <br/>
+    <img src="figures/D3Net-TNNLS20.png"/> <br/>
     <em> 
 Figure 1: Illustration of the proposed D3Net. In the training stage (Left), the input RGB and depth images are processed with three parallel sub-networks, e.g., RgbNet, RgbdNet, and DepthNet. The three sub-networks are based on a same modified structure of Feature Pyramid Networks (FPN) (see § IV-A for details). We introduced these sub-networks to obtain three saliency maps (i.e., Srgb, Srgbd, and Sdepth) which considered both coarse and fine details of the input. In the test phase (Right), a novel depth depurator unit (DDU) (§ IV-B) is utilized for the first time in this work to explicitly discard (i.e., Srgbd) or keep (i.e., Srgbd) the saliency map introduced by the depth map. In the training/test phase, these components form a nested structure and are elaborately designed (e.g., gate connection in DDU) to automatically learn the salient object from the RGB image and Depth image jointly.
     </em>
