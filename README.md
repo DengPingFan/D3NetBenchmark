@@ -13,8 +13,8 @@ Figure 1: Illustration of the proposed D3Net. In the training stage (Left), the 
 </p>
 
 ### Table of Contents
-- [RGB-D Salient Object Detection: Models, Data Sets, and Large-Scale Benchmarks (TNNLS2021)) <a name="headin"></a>](#Title)
-		- [Table of Contents](#table-of-contents)
+- [RGB-D Salient Object Detection <a name="headin"></a>](#Title)
+	- [Table of Contents](#table-of-contents)
 	- [Abstract](#abstract)
 	- [Notion of saliency shift](#notion-of-saliency-shift)
 	- [Statistics of DAVSOD](#statistics-of-davsod)
