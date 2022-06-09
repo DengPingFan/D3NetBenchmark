@@ -20,7 +20,7 @@ Figure 1: Illustration of the proposed D3Net. In the training stage (Left), the 
 	- [Related Works](#related-works)
 	- [SIP dataset](#SIP-dataset)
 	- [Train](#train)
-	- [Usage](#usage)
+	- [Evaluation](#evaluation)
 	- [Results](#results)
 	- [Citation](#citation)
 
@@ -41,6 +41,8 @@ The statistics of the depth maps in existing datasets (e.g., NJU2K, NLPR, RGBD13
 
 ## Related Works
 Please refer to our recent survey paper: https://github.com/taozh2017/RGBD-SODsurvey
+
+Paper with code: https://paperswithcode.com/task/rgb-d-salient-object-detection
 
 ## SIP dataset
 <p align="center">
@@ -101,7 +103,7 @@ Our testing dataset is:
 https://drive.google.com/open?id=1ABYxq0mL4lPq2F0paNJ7-5T9ST6XVHl1
 
 
-## Evalution:
+## Evaluation
 Put the three pretrained models into the created folder "eval/pretrained_model".
 ```
 python eval.py
@@ -119,9 +121,6 @@ Results of our model on seven benchmark datasets can be found:
 Baidu Pan(https://pan.baidu.com/s/13z0ZEptUfEU6hZ6yEEISuw) 提取码: r295
 
 Google Drive(https://drive.google.com/drive/folders/1T46FyPzi3XjsB18i3HnLEqkYQWXVbCnK?usp=sharing)
-
-## Paper with code
-https://paperswithcode.com/task/rgb-d-salient-object-detection
 
 
 ## Citation
