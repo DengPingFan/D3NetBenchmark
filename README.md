@@ -19,7 +19,7 @@ Figure 1: Illustration of the proposed D3Net. In the training stage (Left), the 
 	- [Notion of Depth Depurator Unit](#Notion-of-Depth-Depurator-Unit)
 	- [Related Works](#related-works)
 	- [SIP dataset](#SIP-dataset)
-	- [Downloads](#downloads)
+	- [Train](#train)
 	- [Usage](#usage)
 	- [Results](#results)
 	- [Citation](#citation)
@@ -75,21 +75,7 @@ RGB-D SOD Datasets:  <a id="datasets" class="anchor" href="#datasets" aria-hidde
 9   | [**SIP**]()     |2020 |TNNLS  | 929  | Multiple  |Person in wild       | 992 * 774 | [Baidu: 46w8](https://pan.baidu.com/s/1wMTDG8yhCNbioPwzq7t25w)/[Google (2.16G)](https://drive.google.com/open?id=1R91EEHzI1JwfqvQJLmyciAIWU-N8VR4A)
 10  | Overall         |    |    |    |     |         |   | [Baidu: 39un](https://pan.baidu.com/s/1DgO18k2B32lAt0naY323PA)/[Google (5.33G)](https://drive.google.com/open?id=16kgnv9NxeiPGwNNx8WoZQLl4qL0qtBZN)
 
-## Training and Testing Sets
-Our training dataset is:
-
-https://drive.google.com/open?id=1osdm_PRnupIkM82hFbz9u0EKJC_arlQI
-
-Our testing dataset is:
-
-https://drive.google.com/open?id=1ABYxq0mL4lPq2F0paNJ7-5T9ST6XVHl1
-
-## Requirement
-- PyTorch>=0.4.1  
-- Opencv   
-
-
-## Train:
+## Train
 Put the three datasets 'NJU2K_TRAIN', 'NLPR_TRAIN','NJU2K_TEST' into the created folder "dataset".
 
 Put the vgg-pretrained model 'vgg16_feat.pth' ( [GoogleDrive](https://drive.google.com/file/d/1SXOV-DKnnqFD_b9yxJCIzdSkU7qiHh1X/view?usp=sharing) | [BaiduYun](https://pan.baidu.com/s/17qaLM3nbgR_eGehSK-SOrA) code: zsxh )  into the created folder "model".
@@ -98,6 +84,22 @@ python train.py --net RgbNet
 python train.py --net RgbdNet
 python train.py --net DepthNet
 ```
+# Requirement
+- PyTorch>=0.4.1  
+- Opencv   
+
+# Pretrained models
+-RgbdNet,RgbNet,DepthNet pretrained models can be downloaded from ( [GoogleDrive](https://drive.google.com/drive/folders/1jbZzUbgOC0XzbBEsy-Bgf3b-pvr62aWK?usp=sharing) | [BaiduYun](https://pan.baidu.com/s/1sgi0KExOv5KOfGQgXpDdqw) code: xf1h )  
+
+# Training and Testing Sets
+Our training dataset is:
+
+https://drive.google.com/open?id=1osdm_PRnupIkM82hFbz9u0EKJC_arlQI
+
+Our testing dataset is:
+
+https://drive.google.com/open?id=1ABYxq0mL4lPq2F0paNJ7-5T9ST6XVHl1
+
 
 ## Evalution:
 Put the three pretrained models into the created folder "eval/pretrained_model".
@@ -106,8 +108,7 @@ python eval.py
 ```
 
 Toolbox (updated in 2022/06/09): [Baidu: i09j] (https://pan.baidu.com/s/1ArnPZ4OwP67NR71OWYjitg) | [Google] (https://drive.google.com/file/d/1I4Z7rA3wefN7KeEQvkGA92u99uXS_aI_/view?usp=sharing)
-## Pretrained models
--RgbdNet,RgbNet,DepthNet pretrained models can be downloaded from ( [GoogleDrive](https://drive.google.com/drive/folders/1jbZzUbgOC0XzbBEsy-Bgf3b-pvr62aWK?usp=sharing) | [BaiduYun](https://pan.baidu.com/s/1sgi0KExOv5KOfGQgXpDdqw) code: xf1h )  
+
 
 ## Results
 <p align="center">
