@@ -1,4 +1,4 @@
-# RGB-D Salient Object Detection: Models, Data Sets, and Large-Scale Benchmarks (TNNLS2021)
+# RGB-D Salient Object Detection: Models, Data Sets, and Large-Scale Benchmarks (TNNLS2021) <a name="headin"></a>
 Rethinking RGB-D Salient Object Detection: Models, Data Sets, and Large-Scale Benchmarks, IEEE TNNLS 2021. 
 
 ### 0.1. :fire: NEWS :fire:
@@ -11,6 +11,17 @@ Rethinking RGB-D Salient Object Detection: Models, Data Sets, and Large-Scale Be
 Figure 1: Illustration of the proposed D3Net. In the training stage (Left), the input RGB and depth images are processed with three parallel sub-networks, e.g., RgbNet, RgbdNet, and DepthNet. The three sub-networks are based on a same modified structure of Feature Pyramid Networks (FPN) (see § IV-A for details). We introduced these sub-networks to obtain three saliency maps (i.e., Srgb, Srgbd, and Sdepth) which considered both coarse and fine details of the input. In the test phase (Right), a novel depth depurator unit (DDU) (§ IV-B) is utilized for the first time in this work to explicitly discard (i.e., Srgbd) or keep (i.e., Srgbd) the saliency map introduced by the depth map. In the training/test phase, these components form a nested structure and are elaborately designed (e.g., gate connection in DDU) to automatically learn the salient object from the RGB image and Depth image jointly.
     </em>
 </p>
+
+### Table of Contents
+- [RGB-D Salient Object Detection: Models, Data Sets, and Large-Scale Benchmarks (TNNLS2021)) <a name="headin"></a>](#Title)
+		- [Table of Contents](#table-of-contents)
+	- [Abstract](#abstract)
+	- [Notion of saliency shift](#notion-of-saliency-shift)
+	- [Statistics of DAVSOD](#statistics-of-davsod)
+	- [Downloads](#downloads)
+	- [Usage](#usage)
+	- [Results](#results)
+	- [Citation](#citation)
 
 ## Training and Testing Sets
 Our training dataset is:
