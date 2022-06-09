@@ -18,6 +18,7 @@ Figure 1: Illustration of the proposed D3Net. In the training stage (Left), the 
 	- [Abstract](#abstract)
 	- [Notion of Depth Depurator Unit](#Notion-of-Depth-Depurator-Unit)
 	- [Related Works](#related-works)
+	- [Salient Person (SIP) dataset](#salient-person-dataset)
 	- [Downloads](#downloads)
 	- [Usage](#usage)
 	- [Results](#results)
@@ -40,6 +41,26 @@ The statistics of the depth maps in existing datasets (e.g., NJU2K, NLPR, RGBD13
 
 ## Related Works
 Please refer to our recent survey paper: https://github.com/taozh2017/RGBD-SODsurvey
+
+## Salient Person (SIP) dataset
+
+<p align="center">
+    <img src="figures/SIP.png" width="50%" /> <br/>
+    <em> 
+    Figure 3: Representative subsets in our SIP. The images in SIP are grouped into eight subsets according to background objects (i.e., grass, car, barrier, road,
+sign, tree, flower, and other), different lighting conditions (i.e., low light and sunny with clear object boundary), and various number of objects (i.e., 1, 2, ≥3).
+    </em>
+</p>
+
+<p align="center">
+    <img src="figures/SIP2.png" width="50%" /> <br/>
+    <em> 
+    Figure 4: Examples of images, depth maps and annotations (i.e., object level and instance level) in our SIP data set with different numbers of salient objects,
+object sizes, object positions, scene complexities, and lighting conditions. Note that the “RGB” and “Gray” images are captured by two different monocular
+cameras from short distances. Thus, the “Gray” images are slightly different from the grayscale images obtained from colorful (RGB) image. Our SIP data
+set provides a new direction, such as depth estimating from “RGB” and “Gray” images, and instance-level RGB-D SOD.
+    </em>
+</p>
 
 ## Training and Testing Sets
 Our training dataset is:
