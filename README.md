@@ -45,7 +45,7 @@ Please refer to our recent survey paper: https://github.com/taozh2017/RGBD-SODsu
 ## Salient Person (SIP) dataset
 
 <p align="center">
-    <img src="figures/SIP.png" width="50%" /> <br/>
+    <img src="figures/SIP.png" width="98%" /> <br/>
     <em> 
     Figure 3: Representative subsets in our SIP. The images in SIP are grouped into eight subsets according to background objects (i.e., grass, car, barrier, road,
 sign, tree, flower, and other), different lighting conditions (i.e., low light and sunny with clear object boundary), and various number of objects (i.e., 1, 2, ≥3).
@@ -53,7 +53,7 @@ sign, tree, flower, and other), different lighting conditions (i.e., low light a
 </p>
 
 <p align="center">
-    <img src="figures/SIP2.png" width="50%" /> <br/>
+    <img src="figures/SIP2.png" width="98%" /> <br/>
     <em> 
     Figure 4: Examples of images, depth maps and annotations (i.e., object level and instance level) in our SIP data set with different numbers of salient objects,
 object sizes, object positions, scene complexities, and lighting conditions. Note that the “RGB” and “Gray” images are captured by two different monocular
