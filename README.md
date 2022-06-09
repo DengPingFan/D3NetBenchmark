@@ -18,7 +18,7 @@ Figure 1: Illustration of the proposed D3Net. In the training stage (Left), the 
 	- [Abstract](#abstract)
 	- [Notion of Depth Depurator Unit](#Notion-of-Depth-Depurator-Unit)
 	- [Related Works](#related-works)
-	- [Salient Person (SIP) dataset](#Salient-Person-(SIP)-dataset)
+	- [SIP dataset](#SIP-dataset)
 	- [Downloads](#downloads)
 	- [Usage](#usage)
 	- [Results](#results)
@@ -42,7 +42,7 @@ The statistics of the depth maps in existing datasets (e.g., NJU2K, NLPR, RGBD13
 ## Related Works
 Please refer to our recent survey paper: https://github.com/taozh2017/RGBD-SODsurvey
 
-## Salient Person (SIP) dataset
+## SIP dataset
 <p align="center">
     <img src="figures/SIP.png" width="98%" /> <br/>
     <em> 
