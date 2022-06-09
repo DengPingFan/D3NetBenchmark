@@ -16,7 +16,7 @@ Figure 1: Illustration of the proposed D3Net. In the training stage (Left), the 
 - [RGB-D Salient Object Detection <a name="headin"></a>](#Title)
 	- [Table of Contents](#table-of-contents)
 	- [Abstract](#abstract)
-	- [Notion of Depth Depurator Unit](#notion-of-DDU)
+	- [Notion of Depth Depurator Unit](#Notion-of-Depth-Depurator-Unit)
 	- [Statistics of DAVSOD](#statistics-of-davsod)
 	- [Downloads](#downloads)
 	- [Usage](#usage)
